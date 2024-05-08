@@ -44,7 +44,7 @@ import cv2
 viedoCaptureObject=cv2.VideoCapture(0)
 while(True):
     ret,frame=viedoCaptureObject.read()
-    cv2.imwrite("abishek.jpg",frame)
+    cv2.imwrite("afsar.jpg",frame)
     result=False
 viedoCaptureObject.release()
 cv2.destroyAllWindows()
@@ -77,7 +77,7 @@ while True:
     image[height//2:, :width//2]=smaller_frame
     image[:height//2, width//2:]=smaller_frame
     image[height//2:, width//2:]=smaller_frame
-    cv2.imshow('212222230004_abishek',image)
+    cv2.imshow('212222240004_afsar',image)
     if cv2.waitKey(1)==ord('q'):
         break
 cap.release()
@@ -98,7 +98,7 @@ while True:
     image[height//2:, :width//2]=smaller_frame
     image[:height//2, width//2:]=cv2.rotate(smaller_frame,cv2.ROTATE_180)
     image[height//2:, width//2:]=smaller_frame
-    cv2.imshow('212222230004_abishek',image)
+    cv2.imshow('212222240004_afsar',image)
     if cv2.waitKey(1)==ord('q'):
         break
 cap.release()
@@ -106,23 +106,23 @@ cv2.destroyAllWindows()
 ```
 ## Output
 ### i) Write the frame as JPG image
-![Screenshot 2024-02-22 223708](https://github.com/AbishekAnand15/Image_Acqusition-_using_Web_Camera/assets/118706942/71a6787a-cefe-498f-a7a9-29fd36792f49)
-</br>
-</br>
+![Screenshot 2024-02-28 201535](https://github.com/Afsarjumail/Image_Acqusition-_using_Web_Camera/assets/118343395/cad74b95-f98d-4df1-8f7b-d8e88d0c018d)
 
 ### ii) Display the video
-![Screenshot 2024-02-22 222200](https://github.com/AbishekAnand15/Image_Acqusition-_using_Web_Camera/assets/118706942/b8f32bfe-57d8-4ecc-b730-eb562404eae4)
+![Screenshot 2024-02-28 201631](https://github.com/Afsarjumail/Image_Acqusition-_using_Web_Camera/assets/118343395/309f9ad8-4c87-4acb-a151-5d2b3939b5c5)
 
 </br>
 </br>
 
 ### iii) Display the video by resizing the window
-![WhatsApp Image 2024-02-22 at 23 26 49_d006ec67](https://github.com/AbishekAnand15/Image_Acqusition-_using_Web_Camera/assets/118706942/1c6a8091-cc54-4164-9e4e-ac151fb67249)
+![Screenshot 2024-02-28 201752](https://github.com/Afsarjumail/Image_Acqusition-_using_Web_Camera/assets/118343395/2cf9dac7-5a2b-48f7-bc89-68506231a320)
+
 </br>
 </br>
 
 ### iv) Rotate and display the video
-![WhatsApp Image 2024-02-22 at 23 28 24_b2280c11](https://github.com/AbishekAnand15/Image_Acqusition-_using_Web_Camera/assets/118706942/a3caf2b2-c008-4950-95b3-59d0c50a9817)
+![Screenshot 2024-02-28 201830](https://github.com/Afsarjumail/Image_Acqusition-_using_Web_Camera/assets/118343395/643be81e-7c63-4618-9ffa-e80740c61df8)
+
 </br>
 </br>
 
